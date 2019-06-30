@@ -1,0 +1,9 @@
+{
+  "name": "webgl-helfer",
+  "version": "0.0.1",
+  "description": "Simplifier for WebGL syntax",
+  "main": "index.js",
+  "repository": "not yet",
+  "author": "Serge Pirogov",
+  "license": "MIT"
+}
