@@ -46,3 +46,27 @@ golem.vertex(gl, program, 'a_position', position);
 const count = 1;
 golem.drawTriangles(gl, count);
 ```
+
+## API
+### Draw texture
+```js
+// ... some previous code
+
+const texCoord = [
+  0.0, 0.0,
+  0.0, 1.0,
+  1.0, 0.0,
+  0.0, 1.0,
+  1.0, 0.0,
+  1.0, 1.0,
+];
+golem.vertex(gl, program, 'a_texCoord', texCoord);
+
+const image = new Image();
+image.src = 'https://your.domain/image.png';
+im.onload = () => {
+    golem.texture(gl, image);
+
+    golem.drawTriangles(gl, 2);
+};
+```
