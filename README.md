@@ -2,6 +2,16 @@
 
 Small library to have a comfortable environment to write a WebGL application
 
+## Installation
+
+```sh
+yarn add atme/golem
+```
+or
+```sh
+npm i atme/golem
+```
+
 ## Examples
 
 ```js
